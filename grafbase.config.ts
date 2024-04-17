@@ -12,6 +12,9 @@ export default config({
   graph: g,
   cors: {
     maxAge: 69420,
-    allowedOrigins: [new URL("https://app.grafbase.com")],
+    allowedOrigins: [
+      new URL("https://app.grafbase.com"),
+      new URL("https://altair-gql.sirmuel.design/"),
+    ],
   },
 });

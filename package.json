@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@grafbase/sdk": "^0.21.0",
-    "grafbase": "^0.68.0"
+    "grafbase": "^0.68.0",
+    "@grafbase/cli-x86_64-unknown-linux-musl": "^0.68.0"
   },
   "devDependencies": {
     "@grafbase/sdk": "~0.21.0"

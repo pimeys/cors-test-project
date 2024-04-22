@@ -11,7 +11,7 @@ g.datasource(pg);
 export default config({
   graph: g,
   cors: {
-    maxAge: 69420,
+    maxAge: 30,
     allowedOrigins: [
       new URL("https://altair-gql.sirmuel.design/"),
       new URL("https://app.grafbase.com"),
